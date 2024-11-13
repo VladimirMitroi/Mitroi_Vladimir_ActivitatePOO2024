@@ -72,7 +72,7 @@ public:
         return *this;
     }
     
-    static void afisareNumarTelefoane(){
+    static void getNumarTelefoane(){
         cout<<"Numar total telefoane: "<<numarTelefoane<<endl<<endl;
     };
     
@@ -146,7 +146,7 @@ public:
         }
     }
     
-    static void afisareNumarLaptopuri(){
+    static void getNumarLaptopuri(){
         cout<<"Numar laptopuri: "<<numarLaptop<<endl<<endl;
     }
     
@@ -233,7 +233,7 @@ public:
         }
     }
     
-    static void afisareNumarSmartwatchuri(){
+    static void getNumarSmartwatchuri(){
         cout<<"Numar smartwatchuri: "<<numarCeas<<endl<<endl;
     }
     
